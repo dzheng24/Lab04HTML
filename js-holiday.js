@@ -1,5 +1,10 @@
-var today = Date();
+var today = new Date();
+var m = today.getMonth()+1
+var d= today.getDate ();
 var greeting;
+var date;
+date = m + '/' + d
+
 
 if (today = 4/20) {
     greeting = 'happy 420!';
