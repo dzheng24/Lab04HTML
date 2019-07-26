@@ -1,5 +1,6 @@
 function sayHello() {
     document.write('Welcome to Our Page!'}
+    return 'Welcome to Our Page';
     
  var today = new Date();
  var m = today.getMonth()+1
