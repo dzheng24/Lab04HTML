@@ -18,9 +18,7 @@ if (date === 3/8) {
 
 document.write('<h3>' + greeting + '</h3>');
 
-var msg = 'Join us for an upcoming picnic!'
-function updateMessage() {
-    var el = document. getElementById ('message');
-    el. textContent = msg;
+function sayHello() {
+    document.write('Welcome to Our Page!')
 }
-updateMessage();
+

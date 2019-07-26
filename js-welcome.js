@@ -13,3 +13,5 @@ if (hourNow > 20) {
 }
 
 document.write('<h3>' + greeting + '</h3>');
+
+
