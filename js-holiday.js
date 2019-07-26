@@ -22,5 +22,4 @@ function sayHello() {
 document.write('<h3>' + greeting + '</h3>');
 
 
-}
 
