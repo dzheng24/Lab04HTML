@@ -1,24 +1,26 @@
-var today = new Date();
-var m = today.getMonth()+1
-var d = today.getDate ();
-var greeting;
-var date;
-date = m + '/' + d
+function sayHello() {
+    document.write('Welcome to Our Page!'}
+    
+ var today = new Date();
+ var m = today.getMonth()+1
+ var d = today.getDate ();
+ var greeting;
+ var date;
+ date = m + '/' + d
 
 
-if (date === 3/8) {
+ if (date === 3/8) {
     greeting = 'happy international women day!';
-} else if (date === 12/25) {
+ } else if (date === 12/25) {
     greeting = 'merry christmas!';
-} else if (date === 11/24) {
+ } else if (date === 11/24) {
     greeting = 'happy thanksgiving!';
-} else {
+ } else {
     greeting = 'be kind to one another';
-}
+ }
 
 document.write('<h3>' + greeting + '</h3>');
 
-function sayHello() {
-    document.write('Welcome to Our Page!')
+
 }
 
