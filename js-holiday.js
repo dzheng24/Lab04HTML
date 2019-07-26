@@ -6,11 +6,11 @@ var date;
 date = m + '/' + d
 
 
-if (date = 3 / 8) {
+if (date === 3 / 8) {
     greeting = 'happy international women day!';
-} else if (date = 12 / 25) {
+} else if (date === 12 / 25) {
     greeting = 'merry christmas!';
-} else if (date = 11 / 24) {
+} else if (date === 11 / 24) {
     greeting = 'happy thanksgiving!';
 } else {
     greeting = 'be kind';
