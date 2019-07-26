@@ -13,7 +13,14 @@ if (date === 3/8) {
 } else if (date === 11/24) {
     greeting = 'happy thanksgiving!';
 } else {
-    greeting = 'be kind';
+    greeting = 'be kind to one another';
 }
 
 document.write('<h3>' + greeting + '</h3>');
+
+var msg = 'Join us for an upcoming picnic!'
+function updateMessage() {
+    var el = document. getElementById ('message');
+    el. textContent = msg;
+}
+updateMessage();
